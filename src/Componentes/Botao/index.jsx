@@ -2,7 +2,7 @@ import React from 'react';
 import style from './botao.module.css';
 
 export default function Botao({ children, link, targetId, largura }) {
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = (window.innerWidth <= 768);
 
   const scrollToSection = (e) => {
     e.preventDefault();
