@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './secaocomprar.module.css'
-import Dezfrascos from '../../assets/images/1frasco.png'
-import Cincofrascos from '../../assets/images/3frascos.png'
-import Tresfrascos from '../../assets/images/5frascos.png'
-import Umfrasco from '../../assets/images/12frascos.png'
+import Dezfrascos from '../../assets/images/10frascos.png'
+import Cincofrascos from '../../assets/images/5frascos.png'
+import Tresfrascos from '../../assets/images/3frascos.png'
+import Umfrasco from '../../assets/images/1frasco.png'
 import CompraInternet from '../../assets/images/comprainternet.png'
 import CompraSegura from '../../assets/images/seloscomprasegura.png'
 
