@@ -15,16 +15,16 @@ export default function SecaoComprar() {
       <img className={style.imagem__compra__internet} src={CompraInternet} alt="Imagem Compra Segura Pela Internet" />
       <p className={style.secao__comprar__texto}>Recomendamos de 3 a 8 frascos para melhores resultados!</p>
       <section className={style.container__valores}>
-        <a href='https://bit.ly/46xnNMR' className={style.card__valores}>
+        <a href='https://bit.ly/3uC1xnS' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={Dezfrascos} alt="Dez Frascos" loading="lazy"/>
         </a>
-        <a href='https://bit.ly/3MWzVjw' className={style.card__valores}>
+        <a href='https://bit.ly/3t4c5f7' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={Cincofrascos} alt="Cinco Frascos" loading="lazy"/>
         </a>
-        <a href='https://bit.ly/3sIc7cz' className={style.card__valores}>
+        <a href='https://bit.ly/3NzAmB1' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={Tresfrascos} alt="Três Frascos" loading="lazy"/>
         </a>
-        <a href='https://bit.ly/3RaYmMI' className={style.card__valores}> 
+        <a href='https://bit.ly/3GqMMqI' className={style.card__valores}> 
           <img className={style.card__valores__imagem} src={Umfrasco} alt="Um Frasco" loading="lazy"/>
         </a>
       </section>
