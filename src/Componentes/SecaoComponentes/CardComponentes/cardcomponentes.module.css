@@ -1,0 +1,38 @@
+.card__componentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-top: 1%;
+}
+
+.card__componentes__imagem{
+    width: 60%;
+}
+
+.card__componentes__titulo{
+    color: #c95e90;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card__componentes__descricao{
+    color: #525c67;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card__componentes{
+        width: 32%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .card__componentes{
+        width: 80%;
+    }
+}

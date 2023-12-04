@@ -1,0 +1,38 @@
+.card__efeitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-top: 1%;
+}
+
+.card__efeitos__imagem{
+    width: 60%;
+}
+
+.card__efeitos__titulo{
+    color: #525c67;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card__efeitos__descricao{
+    color: #2B2B2B;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card__efeitos{
+        width: 22%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .card__efeitos{
+        width: 80%;
+    }
+}

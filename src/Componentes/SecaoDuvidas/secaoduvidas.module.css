@@ -1,0 +1,37 @@
+.conteudo__secao__duvidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__duvidas{
+    width: 60%;
+    margin-bottom: 1.5rem;
+}
+
+.duvidas__titulo{
+    color: #6B00A1;
+    background-color: #E7E7E7;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.duvidas__textos{
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .container__duvidas{
+        width: 90%;
+    }
+
+    .duvidas__titulo{
+        width: 90%;
+    }
+}
