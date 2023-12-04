@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './secaocomprar.module.css'
-import Dezfrascos from '../../assets/images/10frascos.png'
+import Dozefrascos from '../../assets/images/12frascos.png'
 import Cincofrascos from '../../assets/images/5frascos.png'
 import Tresfrascos from '../../assets/images/3frascos.png'
 import Umfrasco from '../../assets/images/1frasco.png'
@@ -16,7 +16,7 @@ export default function SecaoComprar() {
       <p className={style.secao__comprar__texto}>Recomendamos de 3 a 8 frascos para melhores resultados!</p>
       <section className={style.container__valores}>
         <a href='https://bit.ly/3uC1xnS' className={style.card__valores}>
-          <img className={style.card__valores__imagem} src={Dezfrascos} alt="Dez Frascos" loading="lazy"/>
+          <img className={style.card__valores__imagem} src={Dozefrascos} alt="Dez Frascos" loading="lazy"/>
         </a>
         <a href='https://bit.ly/3t4c5f7' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={Cincofrascos} alt="Cinco Frascos" loading="lazy"/>
