@@ -27,7 +27,7 @@ export default function SecaoEfeitos() {
       <Botao targetId="SecaoComprar" largura={40}>
         Quero Restaurar Minha Pele!
       </Botao>
-      <img width={'25%'} className={style.imagem__compra__segura} src={compraSegura} alt="Selo compra segura" />
+      <img width={'30%'} className={style.imagem__compra__segura} src={compraSegura} alt="Selo compra segura" />
     </main>
   )
 }
