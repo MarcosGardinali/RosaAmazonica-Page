@@ -22,7 +22,7 @@ export default function PrimeiraSecao() {
                     <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Alívio das irritações</p>
                     <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> 11 efeitos em 1 sérum</p>
                     <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Rosa Mosqueta + Ácido Hialurônico + Verisol</p>
-                    <Botao targetId="SecaoComprar" largura={70}>
+                    <Botao className={style.componete__botao} targetId="SecaoComprar" largura={70}>
                         Quero Restaurar Minha Pele!
                     </Botao>
                     <img width={'60%'} className={style.imagem__compra__segura} src={compraSegura} alt="Compra segura" />

@@ -17,7 +17,7 @@ export default function SecaoIntroducao() {
           <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate as rugas</p>
           <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Ação preenchedora e anti-flacidez</p>
           <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Estimula a renovação diária da pele</p>
-          <Botao targetId="SecaoComprar" largura={60}>
+          <Botao className={style.componente__botao} targetId="SecaoComprar" largura={60}>
             Quero Restaurar Minha Pele!
           </Botao>
         </section>

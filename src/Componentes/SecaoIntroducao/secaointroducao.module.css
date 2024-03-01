@@ -41,6 +41,10 @@
     width: 50%;
 }
 
+.componente__botao{
+    align-self: center;
+}
+
 .introducao__textos {
     display: flex;
     align-items: center;
