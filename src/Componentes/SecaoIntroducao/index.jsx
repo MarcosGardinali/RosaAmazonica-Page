@@ -12,11 +12,13 @@ export default function SecaoIntroducao() {
       <section className={style.introducao__container__imagem__textos}>
         <img className={style.introducao__imagem} src={antesDepois} alt="Antes e Depois" />
         <section className={style.container__textos__botao}>
-          <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Revitaliza a pele</p>
-          <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate as rugas</p>
-          <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate as rugas</p>
-          <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Ação preenchedora e anti-flacidez</p>
-          <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Estimula a renovação diária da pele</p>
+          <div>
+            <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Revitaliza a pele</p>
+            <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate as rugas</p>
+            <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate as rugas</p>
+            <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Ação preenchedora e anti-flacidez</p>
+            <p className={style.introducao__textos}><BsFillCheckCircleFill className={style.icone__check} /> Estimula a renovação diária da pele</p>
+          </div>
           <Botao className={style.componente__botao} targetId="SecaoComprar" largura={60}>
             Quero Restaurar Minha Pele!
           </Botao>

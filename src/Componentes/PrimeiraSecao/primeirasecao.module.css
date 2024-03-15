@@ -41,6 +41,7 @@
     margin: 5px;
 }
 
+
 .primeira__textos{
     display: flex;
     align-items: center;
@@ -87,14 +88,19 @@
 
     .container__textos{
         width: 95%;
+        align-items: center;
     }
 
     .primeira__titulo{
         width: 100%;
         text-align: center;
     }
-
+    
     .primeira__subtitulo{
         text-align: center;
+    }
+    .componente__botao{
+        left: 25%;
+        align-self: center;
     }
 }

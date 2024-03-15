@@ -12,16 +12,18 @@ export default function PrimeiraSecao() {
                 <article className={style.container__textos}>
                     <h1 className={style.primeira__titulo}>Descubra o poder da Rosa Mosqueta Amazônica!</h1>
                     <h2 className={style.primeira__subtitulo}>A tecnologia americana que devolve a beleza da sua pele!</h2>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Reduz a aparência das rugas instantaneamente</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Hidratação 24 horas</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Clareia e Uniformiza a Pele</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Clareador de Manchas</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Elimina o “Pé de Galinha” e “Bigode Chinês”</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Devolve a Firmeza e Elasticidade a sua Pele</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate Estrias e Foliculite</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Alívio das irritações</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> 11 efeitos em 1 sérum</p>
-                    <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Rosa Mosqueta + Ácido Hialurônico + Verisol</p>
+                    <div className={style.primeira__textos__container}>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Reduz a aparência das rugas instantaneamente</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Hidratação 24 horas</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Clareia e Uniformiza a Pele</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Clareador de Manchas</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Elimina o “Pé de Galinha” e “Bigode Chinês”</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Devolve a Firmeza e Elasticidade a sua Pele</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Combate Estrias e Foliculite</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Alívio das irritações</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> 11 efeitos em 1 sérum</p>
+                        <p className={style.primeira__textos}><BsFillCheckCircleFill className={style.icone__check} /> Rosa Mosqueta + Ácido Hialurônico + Verisol</p>
+                    </div>
                     <Botao className={style.componete__botao} targetId="SecaoComprar" largura={70}>
                         Quero Restaurar Minha Pele!
                     </Botao>

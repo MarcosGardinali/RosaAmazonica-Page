@@ -118,6 +118,7 @@
 
     .container__textos__botao {
         width: 90%;
+        align-items: center;
     }
 
     .introducao__imagem {
