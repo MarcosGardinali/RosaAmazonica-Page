@@ -8,6 +8,13 @@
     padding-bottom: 1rem;
 }
 
+.linha{
+    size: 2px;
+    width: 85%;
+    align-self: center;
+    color: rgba(black, black, black, 0.7);
+}
+
 .titulo__secao__whats{
     color: #A24672;
     font-size: 2rem;
