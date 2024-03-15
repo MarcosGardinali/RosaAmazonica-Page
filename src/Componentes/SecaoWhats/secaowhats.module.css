@@ -1,0 +1,62 @@
+.conteudo__secao__whats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F8E8FF;
+    padding-bottom: 1rem;
+}
+
+.titulo__secao__whats{
+    color: #A24672;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+.texto__secao__whats{
+    color: #292B2D;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    width: 75%;
+}
+
+.conteudo__whatsapp__button{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.6rem 1rem;
+    background-color: #4CAF50;
+    border-radius: 2rem;
+    margin: 2rem 0;
+    transition: 1s all;
+}
+
+.conteudo__whatsapp__button:hover{
+    border-radius: 1.5rem;    
+    transform: scale(1.1);
+}
+
+.conteudo__whatsapp__button img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .texto__secao__whats {
+        width: 95%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .texto__secao__whats {
+        width: 90%;
+    }
+}

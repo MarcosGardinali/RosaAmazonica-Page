@@ -10,13 +10,14 @@ import SecaoComprar from '../SecaoComprar'
 import SecaoDuvidas from '../SecaoDuvidas'
 import PrimeiraSecao from '../PrimeiraSecao'
 import SecaoClientesSatisfeitas from '../SecaoClientesSatisfeitas'
-import whats from '../../assets/images/whats.png'
+import SecaoWhats from '../SecaoWhats'
 
 export default function Conteudo() {
   return (
     <main className={style.conteudo}>
-      <PrimeiraSecao/>
+      <PrimeiraSecao />
       <SecaoEfeitos />
+      <SecaoWhats />
       <SecaoIntroducao />
       <SecaoComponentes />
       <SecaoDepoimentos />
@@ -25,13 +26,6 @@ export default function Conteudo() {
       <SecaoAtencao />
       <SecaoComprar />
       <SecaoDuvidas />
-    
-      <div className={style.whatsapp__button}>
-        <a href="https://api.whatsapp.com/send/?phone=5514998622783&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-            <img src={whats} alt="WhatsApp" loading="lazy"/>
-        </a>
-      </div>
-
     </main>
   )
 }
